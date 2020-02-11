@@ -17,7 +17,7 @@
 <p> In this paragraph I will to an article that my characcter found that reflects on his background and how the world perceives him. Readers will have to click <em href="www.google.co.za" target="_blank"> here</em> to go to the site, which will open on a new tab/ page.
 
 <-- Lists -->
-<p> This is weher a small description introducing my list</p>
+<p> This is where a small description introducing my list</p>
 <ul>
 <li>Item 1</li>
 <li>Item 2</li>
