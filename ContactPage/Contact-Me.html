@@ -4,21 +4,47 @@
         <title>Contact Me</title>
     </head>
     <body>
-        <nav><a href="https://thelalakei.github.io/WSOA3028A_1771810/index.html"> <strong>HOME</strong></a> |
-            <a href="https://thelalakei.github.io/WSOA3028A_1771810/AboutPage/About-Me.html"> <strong>ABOUT</strong></a> |
-            <a href="https://thelalakei.github.io/WSOA3028A_1771810/BlogPosts/All-Posts.html"> <strong>BLOG POSTS</strong> </a> |
-            <a href="https://thelalakei.github.io/WSOA3028A_1771810/ContactPage/Contact-Me.html"> <strong>CONTACT</strong> </a> |
-            <a href="https://thelalakei.github.io/WSOA3028A_1771810/WebPlans/Web-Plans.html"> <strong>WEB PLANS</strong> </a> 
-        </nav>
+        <img src = "20200219_114344_0000.png" 
+        alt = "Website name and logo"/>
+    
+                <center><nav><a href="https://thelalakei.github.io/WSOA3028A_1771810/index.html"> <strong>HOME</strong></a> |
+                    <a href="https://thelalakei.github.io/WSOA3028A_1771810/AboutPage/About-Me.html"> <strong>ABOUT</strong></a> |
+                    <a href="https://thelalakei.github.io/WSOA3028A_1771810/BlogPosts/All-Posts.html"> <strong>BLOG POSTS</strong> </a> |
+                    <a href="https://thelalakei.github.io/WSOA3028A_1771810/ContactPage/Contact-Me.html"> <strong>CONTACT</strong> </a> |
+                    <a href="https://thelalakei.github.io/WSOA3028A_1771810/WebPlans/Web-Plans.html"> <strong>WEB PLANS</strong> </a> 
+                </nav></center>
 
         <Header>
-            <h1>Contact Me</h1>
+            <center><h1>Contact Me</h1></center>
         </Header>
 
         <main>
             <article>
                 <section>
-                    <!--Fill Form Section-->
+                    <form action ="process.php" method ="post">
+                        <label>First Name</label>
+                        <Input type ="text" name ="FirstName" placeholder="E.g Kat">
+
+                            <label>Last Name</label>
+                        <Input type ="text" name ="LastName" placeholder="E.g Jones">
+
+                            <!--Add In Paddings By Breaks-->
+                            <br>
+                            <br>
+
+                            <label>Email</label>
+                        <Input type ="email" name ="Email" placeholder="E.g mail@example.com">
+
+                             <!--Add In Paddings By Breaks-->
+                            <br>
+                            <br>
+
+                            <label>Message</label>
+                        <textarea name ="message"placeholder="Type your message here...">
+                        </textarea> 
+
+                        <input type ="submit" name ="submit" value="submit">
+                    </form>
                 </section>
             </article>
         </main>
