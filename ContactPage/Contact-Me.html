@@ -20,30 +20,30 @@
         <main>
             <h1>Contact Me</h1>
             <article>
-               <section>
-                    <form action ="process.php" method ="post" target="ConfirmationPage.html">
-                        <label>First Name</label> 
-                        <Input type ="text" name ="FirstName" placeholder="E.g Kat">
+               <section class="container">
+                    <form id="my-form">
+                        <label for="firstname">First Name</label> 
+                        <Input type ="text" id="FirstName" placeholder="E.g Kat">
 
-                            <label>Last Name</label>
-                        <Input type ="text" name ="LastName" placeholder="E.g Jones">
+                            <label for="lastname">Last Name</label>
+                        <Input type ="text" id="LastName" placeholder="E.g Jones">
 
                             <!--Add In Paddings By Breaks-->
                             <br>
                             <br>
 
-                            <label>Email</label>
-                        <Input type ="email" name ="Email" placeholder="E.g mail@example.com">
+                            <label for="email">Email</label>
+                        <Input type ="email" id="Email" placeholder="E.g mail@example.com">
 
                              <!--Add In Paddings By Breaks-->
                             <br>
                             <br>
 
                             <label>Message</label>
-                        <textarea name ="message" placeholder = "Type your message here...">
+                        <textarea  id="message" placeholder="Type your message here...">
                         </textarea> 
 
-                        <input type ="submit" name ="submit" value="submit">
+                        <input class="btn" type ="submit" value="submit">
                     </form>
                 </section>
             </article>
