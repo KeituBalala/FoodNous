@@ -1,8 +1,13 @@
-const btn = document.querySelector('button');
+let vid = document.getElementById("myVideo"); 
 
-function bgChange() {
-  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.body.style.backgroundColor = rndCol;
-}   
+const button = document.body.children[1]; console.log(button);
 
-btn.addEventListener('click', bgChange);
+button.adEventListener('Click', function playVid() { 
+  vid.play(); 
+} 
+
+const button = document.body.children[1]; console.log(button2);
+
+button.adEventListener('Click',function pauseVid() { 
+  vid.pause(); 
+} 
