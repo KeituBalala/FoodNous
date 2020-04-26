@@ -6,8 +6,8 @@ button.addEventListener('Click', function playVid() {
   vid.play(); 
 } 
 
-const button = document.body.children[1]; console.log(button2);
+const button2 = document.body.children[1]; console.log(button2);
 
-button.addEventListener('Click',function pauseVid() { 
+button2.addEventListener('Click',function pauseVid() { 
   vid.pause(); 
 } 
