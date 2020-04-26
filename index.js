@@ -2,3 +2,4 @@
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);
+  
