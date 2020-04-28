@@ -1,5 +1,5 @@
   let goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
-      document.requestFullscreen();
+      document.body.requestFullscreen();
   }, false);
   
