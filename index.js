@@ -2,6 +2,6 @@
 
   let goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
-      document.myVid.requestFullscreen();
+      myVid.requestFullscreen();
   }, false);
   
