@@ -1,10 +1,10 @@
 const menuItems = [
-    {title: 'HOME', link:'/'},
-    {title: 'ABOUT', link:'/AboutPage'},
-    {title: 'CHARACTER CONTENT', link:'/CharacterContent'},
-    {title: 'THEORY', link:'/TheoryContent'},
-    {title: 'CONTACT', link:'/ContactPage'},
-    {title: 'WEB PLANS', link:'/WebPlans'},
+    {title: 'HOME', link:'../index.html'},
+    {title: 'ABOUT', link:'/../AboutPage/index.html'},
+    {title: 'CHARACTER CONTENT', link:'../CharacterContent/index.html'},
+    {title: 'THEORY', link:'../TheoryContent/index.html'},
+    {title: 'CONTACT', link:'../ContactPage/index.html'},
+    {title: 'WEB PLANS', link:'../WebPlans/index.html'},
 ];
 
 const initialiseMenu = () => {
