@@ -5,7 +5,8 @@
 
 #navbar {
     float: right;
-    padding: 50PX;
+    padding-top: 12PX;
+    padding-right: 42px;
 }
 
 #navbar ul {
