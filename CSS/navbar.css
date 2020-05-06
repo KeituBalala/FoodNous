@@ -1,0 +1,25 @@
+#logo {
+    float: left;
+    padding: 10px;
+}
+
+#navbar {
+    float: right;
+    padding: 50PX;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 15px;
+}
