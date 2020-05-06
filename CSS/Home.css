@@ -3,13 +3,33 @@
     margin:0 ; 
 }
 
+#navbar {
+    float: right;
+    padding: 50PX;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: #d9d9d9;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
 #Showcase {
     background-image: url(../Images/ShowcaseImage.png);
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color:#fff;
 }
 
 #Showcase section{
@@ -20,7 +40,6 @@
     color: #fff;
     font-size: 40px;
     line-height: 1.2;
-    position: relative;
     padding-top: 300px;
     padding-bottom: 10px;
     text-align: center;
