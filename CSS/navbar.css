@@ -5,6 +5,7 @@
 
 #navbar {
     float: right;
+    background-color: transparent;
     padding-top: 12PX;
     padding-right: 42px;
 }
