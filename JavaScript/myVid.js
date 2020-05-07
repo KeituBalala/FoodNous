@@ -1,4 +1,4 @@
-  let myVid = "../ASMR Video.mp4";
+  let myVid = document.getElementById('myVid')
 
   let goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
