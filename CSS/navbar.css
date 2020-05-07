@@ -1,12 +1,6 @@
-#logo {
-    float: left;
-    padding: 10px;
-}
-
 #navbar {
     float: right;
     background-color: transparent;
-    padding-top: 12PX;
     padding-right: 42px;
 }
 
@@ -20,6 +14,36 @@
 }
 
 #navbar a {
+    color: #f9bb13;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+#main-footer {
+    background-image: url(../Images/FooterImage.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main-footer p {
+    padding-top: 200px;
+    position: relative;
+    color: #d9d9d9;
+}
+
+
+#main-footer ul {
+    float: right;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    font-size: 30px;
+    list-style: none;
+}
+
+#main-footer a {
     color: #d9d9d9;
     text-decoration: none;
     font-size: 16px;
