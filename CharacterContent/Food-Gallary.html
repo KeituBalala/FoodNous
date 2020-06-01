@@ -9,109 +9,102 @@
         character design"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8"/>
+        <link href='https://fonts.googleapis.com/css?family=Srisakdi' rel='stylesheet'>
         <script type="module" src= "../JavaScript/nav.js"></script>
-        <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+        <script type="module" src= "../JavaScript/Gallary.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/NavFooter.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Gallary.css">
     </head>
     <body>
        <Header>
             <img id="logo" src = "../Images/Food Nous Logo.png" width= "80px" height= "80px"
         alt = "Website name and logo"/>
-        <nav id="navbar"></nav>
+        <nav class="topnav" id="navbar"></nav>
         </Header>
     
-       <main> <h1>WELCOME TO MY FOOD GALLARY</h1>
-            <article>
-                <p>
-                    Here you will find some of my favourate foodography, either from home recipes or my favourate restuarants around Johannesburg. 
-                </p>
+       <main>
+                <h1>Welcome To My Food Gallary</h1>
+                <hr>
 
-                <img src = "../Images/African Buffet.jpg" width= "500px" height= "350px"
-    alt = "Image Of Food in Metal Serving Containers"/>
+               <p>Here you will find some of my favourate foodography, either from home recipes or my favourate restuarants around Johannesburg.</p>
 
-                <p>
-                    <!--Recipe-->
-                </p>
-
-
-                <img src = "../Images/Braai.jpg" width= "500px" height= "350px"
-    alt = "Image Of Braai Meat With Rice And Pap On A Table"/>
-
-               <p>
-                    <!--Recipe-->
-              </p>
-
-              <img src = "../Images/Fruit Musli.jpg" width= "500px" height= "350px"
-    alt = "Image of a bowl filled with fruit and musli on a wooden surface"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Fruit Pops.webp" width= "500px" height= "350px"
-    alt = "Image of popsicles made with fruits"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Fruit Veg Juice.webp" width= "500px" height= "350px"
-    alt = "Image of cups of juices with fruits and vegetables beside them"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Gallary I3.jpg" width= "500px" height= "350px"
-    alt = "Image of two platter like settings with eggs, ham, tomatoes and cultery"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Pan Salad.jpg" width= "500px" height= "350px"
-    alt = "Image of stir fry inside a pan"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Pancakes.jpg" width= "500px" height= "350px"
-    alt = "Image of Pancakeson a plate surrounded by fruits wit a mug and other foods faded in the background"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Mash.jpg" width= "500px" height= "350px"
-    alt = "Image of mashed potatoes and meat in a bowl"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <img src = "../Images/Salad Ingr.jpg" width= "500px" height= "350px"
-    alt = "Image of plain green sala in a large bowl surrounded by various salad ingredients"/>
-
-                <p>
-                    <!--Recipe-->
-                </p>
-
-                <p><a href="SiteVideos.html">take me to site videos</a></p>
-
-            </article>
-
-          <section>
-                <h2>
-                    <strong>Acknowledgements</strong>
-                </h2>
-
-                <p>
-                    Pixabay (2020). <cite>African Food.</cite> [Images] 
-                    Available at: <a href= "https://pixabay.com/images/search/african%20food/">"https://pixabay.com/images/search/african%20food/"</a> 
-                    (Accessed 27 April 2020)
-                </p>
-
-            </section>   
+                <section id="myBtnContainer">
+                  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                  <button class="btn" onclick="filterSelection('restaurants')"> Restaurants </button>
+                  <button class="btn" onclick="filterSelection('homemade')"> Homemade </button>
+                  <button class="btn" onclick="filterSelection('events')"> Events </button>
+                </section>
+                
+                <!-- Gallery Grid -->
+                <section class="row">
+                  <article class="column restaurants">
+                    <section class="content">
+                      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                      <h4>Mountains</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column homemade">
+                    <section class="content">
+                    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+                      <h4>Lights</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column events">
+                    <section class="content">
+                    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+                      <h4>Forest</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  
+                  <article class="column restaurants">
+                    <section class="content">
+                      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+                      <h4>Retro</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column homemade">
+                    <section class="content">
+                    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+                      <h4>Fast</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column events">
+                    <section class="content">
+                    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+                      <h4>Classic</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                
+                  <article class="column restaurants">
+                    <section class="content">
+                      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+                      <h4>Girl</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column homemade">
+                    <section class="content">
+                    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+                      <h4>Man</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                  <article class="column events">
+                    <section class="content">
+                    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+                      <h4>Woman</h4>
+                      <p>Lorem ipsum dolor..</p>
+                    </section>
+                  </article>
+                <!-- END GRID -->
+                </section>
+  
         </main>
         
         <Footer id="main-footer">
