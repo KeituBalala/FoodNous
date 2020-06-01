@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin:0 ; 
-}
+} 
 
 #navbar {
     float: right;
@@ -29,8 +29,8 @@
 }
 
 #Showcase {
-    background-image: url(../Images/ShowcaseImage.png);
-    height: 1000px;
+    background-image: url(../Images/food-background.jpg);
+    height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,64 +79,82 @@
     color: #000;
 }
 
-.main h1{
+/* Center website */
+.main {
+    max-width: 1480px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Srisakdi';
+    font-size: 50px;
+    word-break: break-all;
     text-align: center;
-    padding: 50px;
-    font-family: "Comic Sans MS", cursive;
-}
-
-.block {
-    float: left;
-    width: 33.3%;
-    border: 1px;
-    padding-bottom: 50px;
-}
-
-.block h2 {
+    padding: 35px;
+  }
+  
+.main p {
     text-align: center;
-}
-
-.block p {
+    font-family: 'Srisakdi';
+    font-size: 22px;
+  }
+  
+h3 {
+    font-family: 'Srisakdi';
+    font-size: 22px;
     text-align: center;
-}
+    color: #c1d92e;
+  }
+  
 
-.block2 {
-    float: left;
-    width: 33.3%;
-    border: 1px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    border: 100px;
-}
-
-.block2 h2 {
-    text-align: center;
-}
-
-.block2 p {
-    text-align: center;
-}
-
-.c-box {
-    height: 500px;
-    margin-bottom: 30px;
-}
-
-.t-box {
-    height: 500px;
-    margin-bottom: 60px;
-}
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Columns */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+.column {
+   float: left;
+   width: 33.3%;
+ }
+   
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Column Content */
+  .content {
+    padding: 10px;
+  }
+  
+  /* Responsive layout - Two columns*/
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout -  columns stack on top of each other  */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 #main-footer {
-    background-image: url(../Images/FooterImage.jpg);
-    height: 400px;
+    background-image: url(../Images/dark\ background.jpg);
+    height: 200px;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
 #main-footer p {
-    padding-top: 200px;
     position: relative;
     color: #d9d9d9;
 }
@@ -162,7 +180,7 @@
 }
 
 a {
-    color: #c1d92e;
+    color: #b89537;
 }
 a:hover {
     color: #f9bb13;
