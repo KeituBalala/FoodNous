@@ -1,0 +1,59 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Khand';font-size: 22px;
+    padding: 10px;
+   }
+   
+   p {
+    text-align: center;
+    font-family: 'Khand';font-size: 22px;
+    color: grey;
+    font-size: 15px;
+   }
+   
+   .post {
+    padding-left: 25%;
+    width: 100%;
+    
+   }
+   
+   .blogImgs {
+    width: 100%;
+    padding-left: 9%;
+   }
+   
+   .img {
+    float: left;
+    width: 33,3%;
+   }
+   
+   .img:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   
+   .pagination {
+     display: inline-block;
+     padding-top: 40px;
+     padding-left: 36.5%;
+   }
+   
+   .pagination a {
+     color: black;
+     float: left;
+     padding: 8px 16px;
+     text-decoration: none;
+   }
+   
+   .pagination a.active {
+     background-color: #f9bb13;
+     color: white;
+     border-radius: 5px;
+   }
+   
+   .pagination a:hover:not(.active) {
+     background-color: #f9bb13;
+     border-radius: 5px;
+   }
