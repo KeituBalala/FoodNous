@@ -2,8 +2,20 @@ body {
     font-size: 18px;
 }
   
+  @font-face{
+    font-family: srisakdi;
+    src:url(../Fonts/Srisakdi-Regular.ttf)
+  }
+  
+  :root{
+    --first-font: khand;
+    --second-font: kalam;
+    --main-font: Srisakdi; 
+  
+    font-family: var(--main-font)
+  }  
 h2 {
-      font-family: 'Srisakdi';
+      font-family: var(--main-font);
       font-size: 50px;
       word-break: break-all;
       text-align: center;
@@ -12,7 +24,7 @@ h2 {
   
 p {
       text-align: center;
-      font-family: 'Srisakdi';
+      font-family: var(--main-font);
       font-size: 22px;
 }
   
