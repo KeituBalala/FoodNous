@@ -22,7 +22,8 @@
     --second-font: kalam;
     --main-font: Srisakdi; 
   
-    font-family: var(--main-font)
+    font-family: var(--first-font)
+
   }
 
   body {
