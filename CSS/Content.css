@@ -2,11 +2,6 @@
     box-sizing: border-box;
   }
 
-  body {
-    font-family: 'Srisakdi';
-    font-size: 22px;
-  }
-
   h1 {
     font-family: 'Srisakdi';
     font-size: 50px;
@@ -14,7 +9,20 @@
     text-align: center;
     padding-bottom: 20px;
   }
-  
+
+  h2 {
+    font-family: 'Srisakdi';
+    font-size: 36px;
+    word-break: break-all;
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-family: 'Srisakdi';
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
   .column {
     float: left;
     width: 45%;
