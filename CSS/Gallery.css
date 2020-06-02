@@ -2,10 +2,33 @@
     box-sizing: border-box;
   }
   
+  @font-face{
+    font-family: khand;
+    src:url(../Fonts/Khand-Regular.ttf)
+  }
+  
+  @font-face{
+    font-family: kalam;
+    src:url(../Fonts/Kalam-Regular.ttf)
+  }
+  
+  @font-face{
+    font-family: srisakdi;
+    src:url(../Fonts/Srisakdi-Regular.ttf)
+  }
+  
+  :root{
+    --first-font: khand;
+    --second-font: kalam;
+    --main-font: Srisakdi; 
+  
+    font-family: var(--main-font)
+  }
+
   body {
     background-color: #fff;
     padding: 20px;
-    font-family: 'Srisakdi';
+    font-family: var(--main-font);
   }
   
   .main {
@@ -16,7 +39,7 @@
   h1 {
     font-size: 50px;
     word-break: break-all;
-    font-family: 'Srisakdi';
+    font-family: var(--main-font);
   }
   
   .row {
