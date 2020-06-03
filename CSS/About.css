@@ -61,7 +61,10 @@ h2 {
   text-align: center;
   background-color: #474e5d;
   background-image: url(../Images/dark\ background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
+  margin 10%;
 }
 
 .container {
