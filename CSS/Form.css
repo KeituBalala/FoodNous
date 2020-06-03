@@ -50,9 +50,12 @@ input[type=text], select, textarea {
 .container {
     border-radius: 5px;
     background-color: #474e5d;
+    background-image: url(../Images/dark\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     padding: 10px;
-    background-image: linear-gradient(#e1b643,#977008);
     opacity: 0.7;
 }
   
@@ -60,7 +63,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #e1b643;
     padding: 10px;
-    background-image: url(../Images/dark\ background.jpg);
     opacity: 0.9;
 }
   
