@@ -51,9 +51,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #474e5d;
     background-image: url(../Images/dark\ background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     color: white;
     padding: 10px;
     opacity: 0.8;
