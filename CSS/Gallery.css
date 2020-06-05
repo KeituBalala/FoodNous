@@ -53,6 +53,7 @@
   .column {
     float: left;
     width: 33.33%;
+    size: inherit;
     display: none;
   }
    
