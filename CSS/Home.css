@@ -6,11 +6,17 @@
     background-position: center;
 }
 
-#Showcase section{
+.logo {
     float: left;
     padding: 20px;
 }
-#Showcase h1{
+
+.intro {
+   position: relative;
+   text-align: center;
+}
+
+.intro h1{
     color: #fff;
     font-size: 40px;
     line-height: 1.2;
@@ -19,7 +25,7 @@
     text-align: center;
 }
 
-#Showcase p {
+.intro p {
     color: #fff;
     font-size: 20px;
     line-height: 1.2;
