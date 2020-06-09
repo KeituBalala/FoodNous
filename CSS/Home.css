@@ -6,7 +6,7 @@
     background-position: center;
 }
 
-.logo {
+#Showcase section{
     float: left;
     padding: 20px;
 }
@@ -84,7 +84,7 @@
 
 h2 {
     font-family: var(--main-font);
-    font-size: 312,5%;
+    font-size: 312.5%;
     word-break: break-all;
     text-align: center;
     padding: 35px;
