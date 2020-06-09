@@ -43,14 +43,13 @@ h2 {
    }
    
    .post {
-    padding-left: 25%;
     width: 100%;
-    
+    text-align: center;
+    margin: 20%;
    }
    
    .blogImgs {
     width: 100%;
-    padding-left: 9%;
    }
    
    .img {
@@ -67,7 +66,7 @@ h2 {
    .pagination {
      display: inline-block;
      padding-top: 40px;
-     padding-left: 36.5%;
+     text-align: center;
    }
    
    .pagination a {
