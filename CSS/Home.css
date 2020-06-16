@@ -11,12 +11,7 @@
     padding: 20px;
 }
 
-.intro {
-   position: fixed;
-   text-align: center;
-}
-
-.intro h1{
+#Showcase h1{
     color: #fff;
     font-size: 250%;
     line-height: 1.2;
@@ -25,7 +20,7 @@
     text-align: center;
 }
 
-.intro p {
+#Showcase p {
     color: #fff;
     font-size: 125%;
     line-height: 1.2;
