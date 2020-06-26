@@ -18,7 +18,7 @@
     padding-top: 300px;
     padding-bottom: 10px;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 #Showcase p {
@@ -27,7 +27,7 @@
     line-height: 1.2;
     margin-top: 20px;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .btn {
@@ -44,7 +44,7 @@
     transition: all 0.5s ease;
     font-weight: 600;
     margin-top: 50px;
-    margin-left: 35%;
+    margin-left: 40%;
 
 }
 
