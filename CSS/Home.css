@@ -17,6 +17,7 @@
     line-height: 1.2;
     padding-top: 300px;
     padding-bottom: 10px;
+    text-align: center;
     margin-left: 30%;
 }
 
@@ -35,6 +36,7 @@
     font-family: inherit;
     background-color: transparent;
     border: 1px solid white;
+    padding: 12px 25px;
     text-decoration: none;
     display: inline-block;
     font-size: 87.5%;
@@ -43,6 +45,7 @@
     font-weight: 600;
     margin-top: 50px;
     margin-left: 35%;
+
 }
 
 .btn:hover {
