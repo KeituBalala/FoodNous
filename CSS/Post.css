@@ -24,6 +24,8 @@ h1 {
     text-align: center;
     font-family: var(--first-font);
     font-size: 137.5%;
+    padding-top: 7%;
+    padding-bottom: 5px;
    }
 
    
@@ -42,7 +44,7 @@ time {
    p {
     text-align: center;
     font-family: var(--first-font);
-    font-size: 100%;
+    font-size: 113%;
     padding-bottom: 5%;
    }
    
@@ -59,8 +61,10 @@ time {
    .img {
     width: 25%;
     float: left;
+    height: 225px;
     padding: 0;
     margin: 0;
+    border: 0;
    }
    
    .img:after {
@@ -71,9 +75,9 @@ time {
    
    .pagination {
      display: inline-block;
-     padding-top: 20%;
+     padding-top: 15%;
      text-align: center;
-     padding-left: 30%;
+     padding-left: 31.5%;
    }
    
    .pagination a {
