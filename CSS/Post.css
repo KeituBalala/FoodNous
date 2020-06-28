@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     font-family: var(--first-font);
     font-size: 137.5%;
-    padding: 10px;
+    padding: 5px;
    }
 
    
@@ -32,14 +32,14 @@ h2 {
   text-align: center;
   font-family: var(--first-font);
   font-size: 121.875%;
-  padding: 10px;
+  padding: 5px;
  }
    
    p {
     text-align: center;
     font-family: var(--first-font);
     font-size: 100%;
-    padding: 10%;
+    padding: 5%;
    }
    
    .post {
@@ -50,11 +50,11 @@ h2 {
    
    .blogImgs {
     width: 100%;
-    float: left;
    }
    
    .img {
     width: 25%;
+    float: left;
    }
    
    .img:after {
@@ -67,6 +67,7 @@ h2 {
      display: inline-block;
      padding-top: 20%;
      text-align: center;
+     padding-left: 30%;
    }
    
    .pagination a {
