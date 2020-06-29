@@ -38,7 +38,7 @@ h2 {
 
 time {
   text-align: left;
-  padding-top: 5px;
+  padding-top: 5%;
  }
    
    p {
@@ -56,15 +56,13 @@ time {
    
    .blogImgs {
     width: 100%;
+    display: flex;
    }
    
    .img {
     width: 25%;
-    float: left;
+    flex: 33.33%;
     height: 225px;
-    padding: 0;
-    margin: 0;
-    border: 0;
    }
    
    .img:after {
@@ -75,7 +73,8 @@ time {
    
    .pagination {
      display: inline-block;
-     padding-top: 15%;
+     padding-top: 7.5%;
+     padding-bottom: 5%;
      text-align: center;
      padding-left: 31.5%;
    }
