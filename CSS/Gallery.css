@@ -26,7 +26,6 @@
 
   body {
     background-color: #fff;
-    padding: 20px;
   }
   
   article.gallery {
@@ -59,4 +58,11 @@
 
   p {
     font-family: var(--main-font);
+    padding-bottom: 10px;
+  }
+
+  section.reference {
+    padding-top: 5px; 
+    text-align: center;
+    padding-top: 5px;
   }
