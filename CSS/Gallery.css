@@ -42,7 +42,6 @@
   
   article.gallery img {
     width: 100%;
-    height: 100px;
   }
   
   section.desc {
@@ -58,11 +57,11 @@
 
   p {
     font-family: var(--main-font);
-    padding-bottom: 10px;
+    padding-bottom: 14px;
   }
 
   section.reference {
-    padding-top: 5px; 
+    padding-top: 5%; 
     text-align: center;
-    padding-top: 5px;
+    padding-top: 5%;
   }
