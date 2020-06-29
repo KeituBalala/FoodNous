@@ -27,10 +27,10 @@ nav.appendChild (ul);
 document.addEventListener('DOMContentLoaded', () => initialiseMenu());
 
 function myFunction() {
-    const x = document.getElementById("navbar");
-    if (x.className === "topnav") {
-      x.className += "responsive";
-    } else {
-      x.className = "topnav";
-    }
+  const x = document.getElementById("Navbar");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
   }
+}
