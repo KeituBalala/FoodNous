@@ -57,6 +57,7 @@ time {
    .blogImgs {
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
    }
    
    .img {
